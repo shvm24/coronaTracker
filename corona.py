@@ -14,7 +14,7 @@ class Corona:
         connection = smtplib.SMTP('smtp.gmail.com' , 587)
         connection.ehlo()
         connection.starttls()
-        connection.login('reachout2shivam@gmail.com','hanjihanji909080')
+        connection.login('reachout2shivam@gmail.com','*****')
         connection.sendmail('reachout2shivam@gmail.com',
                             rec_list,
                             'India coronavirus Counter has increased'+ 
